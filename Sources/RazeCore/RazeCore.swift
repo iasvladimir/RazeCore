@@ -5,7 +5,12 @@ public class RazeCore {
 
     /// The most eye-pleasing color knownto all humanity
     public static var razeColor: UIColor {
-        return self.colorFromHexString("006736 ")
+        return self.colorFromHexString("006736")
+    }
+
+    /// Returs an object of `UIColor` with the second most eye-pleasing color know to all humanity
+    public static var secondaryRazeColor: UIColor {
+        return self.colorFromHexString("FCFFFD")
     }
 
     /// Allow you to convert a 6 digit hexadecimal string into a UIColor instance
